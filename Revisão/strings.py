@@ -5,8 +5,10 @@ print(type(palavra))
 
 # Strings podem ser somadas e multiplicadas
 
+# Repetição
 print(2*palavra)
 
+# Concatenação
 print(palavra + " e tijolo")
 
 # Tambem podemos acessar certos caracteres da palavra atraves do index
