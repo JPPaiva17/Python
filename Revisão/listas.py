@@ -43,3 +43,10 @@ listaB = listaA
 listaA[0] = 'Henrique'
 print(listaB[0])
 
+# Desempacotamento
+
+nome, *_ = ['joao', 'pedro', 'paiva']
+print(nome)
+
+_, nome2, *_ = ['joao', 'pedro', 'paiva']
+print(nome2)
