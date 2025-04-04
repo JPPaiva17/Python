@@ -1,5 +1,5 @@
 # É um laço que repete até determinada condição for verdadeira
-
+'''
 condicao = True
 
 while condicao:
@@ -8,3 +8,10 @@ while condicao:
 
     if nome == 'sair':
         break
+        
+'''
+
+n = 0
+while(n <= 10):
+    print(n)
+    n+=1
