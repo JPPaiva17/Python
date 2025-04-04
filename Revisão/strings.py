@@ -19,3 +19,12 @@ print(palavra[0::2])
 print(palavra[-1::-1]) #Inverti a string comecei pelo indice -1(Ultimo caractere) com um passo de -1
 
 
+# f-string
+
+nome = 'Joao Pedro Paiva'
+altura = 1.80
+peso = 71
+imc = peso / altura ** 2
+
+frase = f'{nome} tem {altura} e pesa {peso}, portanto, seu IMC = {imc:.2f}'
+print(frase)
