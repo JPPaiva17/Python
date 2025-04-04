@@ -28,3 +28,11 @@ imc = peso / altura ** 2
 
 frase = f'{nome} tem {altura} e pesa {peso}, portanto, seu IMC = {imc:.2f}'
 print(frase)
+
+# format
+
+a = 'A'
+b = 'B'
+c = 1.13542352
+formato = 'a = {}, b = {}, c = {:.2f}'.format(a, b, c)
+print(formato)
