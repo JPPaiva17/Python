@@ -36,3 +36,10 @@ b = 'B'
 c = 1.13542352
 formato = 'a = {}, b = {}, c = {:.2f}'.format(a, b, c)
 print(formato)
+
+# Alguns novos métodos
+
+# frase.split(caracter) ->  transforma a string em uma lista de strings separando pelo caracter especificado dentro dos ()
+#                           Se não tiver nada dentro dos () separará nas ' '
+
+# frase.strip() -> tira os espaços em branco do inicio e do fim da string, lstrip e rstrip tambem existem 

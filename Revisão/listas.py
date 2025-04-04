@@ -50,3 +50,6 @@ print(nome)
 
 _, nome2, *_ = ['joao', 'pedro', 'paiva']
 print(nome2)
+
+# string.join(lista) -> juntara os elementos de uma lista numa string, entre cada elemento aparecerá a string definida no começo
+
