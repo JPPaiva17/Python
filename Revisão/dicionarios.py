@@ -32,3 +32,18 @@ print(list(pessoa.values()))
 # dicionario.items() -> retorna o par chave-valor do dicionario
 
 print(list(pessoa.items()))
+
+
+# Shallow copy x Deep copy
+
+pessoa2 = pessoa # -> atribuiu o mesmo lugar da memoria, modificou um modifica o outro
+
+# Shallow copy -> mudou um nao altera o outro desde que sejam valores imutaveis, agora valores mutaveis ele continuara apontando
+#                 para o mesmo lugar na memória
+
+pessoa2 = pessoa.copy()
+
+# Deep copy -> mudou um nao altera o outro
+import copy
+
+pessoa2 = copy.deepcopy(pessoa)
