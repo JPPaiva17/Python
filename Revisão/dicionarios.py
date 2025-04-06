@@ -47,3 +47,16 @@ pessoa2 = pessoa.copy()
 import copy
 
 pessoa2 = copy.deepcopy(pessoa)
+
+# Dicionario.pop('chave') -> exclui a chave e atribui a uma variavel 
+
+
+# Dicionario.popitem() -> exclui a ultima chave e atribui a uma variavel 
+
+# Dicionario.update({
+#   'nome': 'Edinalvonerio Dariuspin'
+#   'peso': 72934
+# }) 
+# 
+# 
+# -> Não apenas atualiza como adiciona novas chaves
